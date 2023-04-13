@@ -1,0 +1,22 @@
+.carousel {
+    width:640px;
+    height:400px;
+  }
+  .carousel img {
+    width :100%;
+    height:400px;
+  }
+  body {
+    position: relative;
+}
+#text {
+    direction: rtl;
+}
+#text:after {
+    content: 'a';
+    color: transparent;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+   
+    background-color: #e9e9e9;
+}
